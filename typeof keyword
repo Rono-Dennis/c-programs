@@ -1,0 +1,29 @@
+// C# program to illustrate the
+// concept of typeof operator
+using System;
+
+class GFG {
+
+	// Here store Type as a field
+	static Type a = typeof(double);
+
+	// Main method
+	static void Main()
+	{
+
+		// Display the type of a
+		Console.WriteLine(a);
+
+		// Display the value type
+		Console.WriteLine(typeof(int));
+
+		// Display the class type
+		Console.WriteLine(typeof(Array));
+
+		// Display the value type
+		Console.WriteLine(typeof(char));
+
+		// Display the array reference type
+		Console.WriteLine(typeof(int[]));
+	}
+}
