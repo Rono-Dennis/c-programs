@@ -1,0 +1,24 @@
+#include <stdio.h>
+  int main()
+  {
+      float floatArray[10];
+      int i;
+      //input in array using for loop
+
+      for (size_t i = 0; i < 10; i++)
+      {
+          /* code */
+
+printf("Enter Element No:%d=", i+1);
+scanf("%f",&floatArray[i]);
+
+      }
+      printf("The elements of array are:\n");
+      for (size_t i = 0; i < 10; i++)
+       
+          /* code */
+          printf("%.2f\n", floatArray[i]);
+    return 0;
+      
+      
+  }
