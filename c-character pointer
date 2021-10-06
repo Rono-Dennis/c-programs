@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main(void) {
+  
+  // character array
+  char str[6] = "Hello";
+  
+  // pointer ptr
+  // pointing at the character array str
+  char *ptr = str;
+  
+  // print the elements of the array str
+  while (*ptr != '\0') {
+    printf("%c\n", *ptr);
+    
+    // make the pointer ptr point at the
+    // next memory location
+    ptr++;
+  }
+  
+   
+
+  return 0;
+}
